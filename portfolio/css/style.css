@@ -1,0 +1,206 @@
+@import url(utilities.css);
+:root{
+    --primary:cyan;
+    --DARK:black;
+    --pure:white;
+    --ter:#898989;
+    --light:#F2F2F2;
+
+}
+body{
+    font-family: Poppins,sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    --webkit-font-smotthing:antialiased;
+}
+header{
+    background-color: black;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%);
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color: rgb(18, 32, 156);
+}
+header nav{
+    padding: 2rem 0;
+}
+
+.pic .left img{
+    width: 245px;
+    margin-left: 0,2rem;
+}
+.pic .right{
+    color: white;
+}
+.pic .right h4{
+    font-size: 2.5rem;
+    color: rgb(156, 132, 23);
+    margin-bottom: 1.5rem;
+}
+.pic .right h3{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.pic .right h3 samp{
+    color: grey;
+}
+.pic .right{
+    margin-top: -7rem;
+}
+section{
+    padding: 6rem;
+}
+section.about .about-me-img{
+    height: 450px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.about h1 span{
+    color: cyan;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+section.about p{
+    font-weight: 100;
+    font-family: lato;
+    color: rgb(63, 62, 62);
+    line-height: 1.8;
+}
+section.about .social i{
+    font-size: 20px;
+ margin: 5px 5px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ 
+}
+section.about .social i:hover{
+    color: cyan;
+}
+.heading{
+     color: rgb(12, 2, 12);
+     text-align: center;
+     margin-bottom: 1rem;
+     line-height: 0.5;
+}
+.heading span{
+    color: rgb(15, 69, 100);
+}
+.heading +p{
+    color: rgb(54, 53, 53);
+    font-family: lato;
+    margin-bottom: 15rem;
+    text-align: center;
+    font-size: large;
+}
+section.skills{
+    background: rgb(219, 218, 218);
+}
+section.skills .card-wrap{
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:2rem;
+    grid-row-gap:2rem ;
+}
+section.skills .card-wrap .card{
+    background: white;
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 4rem;
+    text-align: center;
+}
+section.skills .card-wrap .card img{
+    img size: 45px;
+    position: absolute;
+    top: -12.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+section.skills .card-wrap .card p{
+    font-weight: 400;
+    margin-top: 0.5rem;
+    font-family:lato;
+}
+section.skills .card-wrap .card:hover{
+    background: black;
+}
+section.skills .card-wrap .card:hover h2,section.skills .card-wrap .card:hover p{
+    color: white;
+}
+.contact .container .section-head{
+
+        color: rgb(12, 2, 12);
+        text-align: center;
+        margin-bottom: 1rem;
+        line-height: 0.5;
+    
+}
+.contact span{
+    color: cyan;
+}
+.contact p{
+    margin-top: 1.5rem;
+}
+section.contact .card-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+section.contact .card-wrap .card{
+    text-align: center;
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+section.contact .input-wrap2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact input{
+    padding: 0.5rem;
+    border: 1px solid gray;
+}
+section.contact .input-wrap2 input{
+    margin-bottom: 2rem;
+}
+section.contact .input-wrap2 textarea{
+    padding: 0.5rem;
+    border: 1px solid gray;
+}
+section.contact .btn-wrap{
+    text-align: center;
+    margin-top: 2rem;
+}
+footer{
+    background: #898989;
+    text-align: center;
+    padding: 0.5rem;
+}
+footer .i{
+    margin: 5px 5px;
+}
